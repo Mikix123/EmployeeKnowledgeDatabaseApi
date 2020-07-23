@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeKnowledgeDatabase", "src\EmployeeKnowledgeDatabase\EmployeeKnowledgeDatabase.csproj", "{7AB89F95-2134-42D2-8115-02E26D30B6B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27B60D5D-2B95-4550-989D-8C4538D679ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AB89F95-2134-42D2-8115-02E26D30B6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB89F95-2134-42D2-8115-02E26D30B6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB89F95-2134-42D2-8115-02E26D30B6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB89F95-2134-42D2-8115-02E26D30B6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AB89F95-2134-42D2-8115-02E26D30B6B3} = {27B60D5D-2B95-4550-989D-8C4538D679ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC60356-EE3E-410D-8CE9-A92F5191AC21}
+	EndGlobalSection
+EndGlobal
