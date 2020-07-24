@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Text.Json.Serialization;
 using EmployeeKnowledgeDatabase.Domains;
 using EmployeeKnowledgeDatabase.Infrastructure.Authentication;
 using EmployeeKnowledgeDatabase.Infrastructure.Errors;
@@ -32,7 +33,11 @@ namespace EmployeeKnowledgeDatabase
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
-            services.AddControllers();
+
+            services.AddControllers()
+                .AddJsonOptions(options =>
+                    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
+
             services.AddCors();
             services.AddJwt();
             services.AddSwaggerDocs();

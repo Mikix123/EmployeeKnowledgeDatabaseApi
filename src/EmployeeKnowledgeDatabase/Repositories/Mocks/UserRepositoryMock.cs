@@ -32,5 +32,4 @@ namespace EmployeeKnowledgeDatabase.Repositories.Mocks
             return await Task.Run(() => _users.FirstOrDefault(x => x.Email == email));
         }
     }
-
 }
